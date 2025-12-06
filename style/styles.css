@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar {
+    padding: 26px 141px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 62px;
+    height: 62px;
+}
+
+.logo h1 {
+    color: var(--Black, rgba(17, 17, 17, 1));
+    font-family: Quicksand;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.menu_bar {}
+
+.menu_bar li {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.menu_bar a {
+    text-decoration: none;
+    font-family: Quicksand;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.orange {
+    color: var(--Orange, rgba(254, 163, 1, 1));
+}
+
+.skyb {
+    color: rgba(1, 172, 253, 1);
+}
+
+.green {
+    color: rgba(5, 212, 223, 1);
+}
+
+.blue {
+    color: rgba(93, 88, 239, 1);
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 12px;
+    background: var(--Orange, rgba(254, 163, 1, 1));
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: Quicksand;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn:hover {
+    background-color: #f5b53f;
+}
+
+/* End Design of Navbar */
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+@media screen and (max-width:576px) {
+    .nav_bar {
+        border-bottom: 1px solid orange;
+        padding: 12px 60px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .logo h1 {
+        display: none;
+    }
+
+    .btn {
+        padding: 5px;
+        border-radius: 5px;
+        background: var(--Orange, rgba(254, 163, 1, 1));
+    }
+
+    .btn a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+        font-family: Quicksand;
+        font-size: 0.6rem;
+        font-weight: 600;
+        line-height: 15px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .menu_bar li {
+        list-style: none;
+        display: flex;
+        gap: 14px;
+    }
+
+    .menu_bar a {
+        text-decoration: none;
+        font-family: Quicksand;
+        font-size: 0.6rem;
+        font-weight: 700;
+        line-height: 13px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    /* End responsive of Menubar */
+}
