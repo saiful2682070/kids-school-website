@@ -92,6 +92,281 @@
 
 /* End Design of Navbar */
 
+.banner {
+    padding: 26px 141px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.banner_content {
+    width: 640px;
+    height: 331px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+}
+
+.banner_content h1 {
+    font-family: Quicksand;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.empower {
+    color: rgba(254, 163, 1, 1)
+}
+
+.students {
+    color: rgba(17, 17, 17, 1);
+}
+
+.towards {
+    color: rgba(1, 172, 253, 1);
+}
+
+.banner_des {
+    color: var(--Black, rgba(17, 17, 17, 1));
+    font-family: Quicksand;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.btn_enroll {
+    padding: 10px;
+    border-radius: 12px;
+    background: var(--Black, rgba(17, 17, 17, 1));
+}
+
+.btn_enroll a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: Quicksand;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner_img {
+    padding: 0px;
+}
+
+.banner_img img {
+    height: 575px;
+}
+
+/* End Banner Design */
+.full_curriculam {
+    background-image: url('/assets/bg.png');
+    margin-top: 70px;
+}
+
+.curriculam {
+    padding: 80px 140px;
+}
+
+.curriculam h1 {
+    color: rgba(0, 0, 0, 1);
+    font-family: Quicksand;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.curriculam_cart {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.curriculam_cart_content_first {
+    width: 367.8px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border: 0.94px solid rgba(222, 245, 255, 1);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.29578971862793px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgba(222, 245, 255, 1), rgba(255, 255, 255, 0) 40%), rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 55px 40px 55px 40px;
+}
+
+.curriculam_cart_content_second {
+    width: 367.8px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border: 0.94px solid rgba(255, 244, 220, 1);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.29578971862793px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgba(255, 244, 220, 1), rgba(255, 255, 255, 0) 40%), rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 55px 40px 55px 40px;
+}
+
+.curriculam_cart_content_third {
+    width: 367.8px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border: 0.94px solid rgba(242, 232, 255, 1);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.29578971862793px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgba(238, 225, 255, 1), rgba(255, 255, 255, 0) 40%), rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 55px 40px 55px 40px;
+}
+
+
+
+.curriculam_cart_content_first img {
+    width: 136.76px;
+    height: 136.76px;
+    margin-bottom: 32px;
+}
+
+.curriculam_cart_content_first h4 {
+    color: rgba(32, 32, 32, 1);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.curriculam_cart_content_first p {
+    color: rgba(128, 128, 128, 1);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.curriculam_cart_content_second img {
+    width: 136.76px;
+    height: 136.76px;
+    margin-bottom: 32px;
+}
+
+.curriculam_cart_content_second h4 {
+    color: rgba(32, 32, 32, 1);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.curriculam_cart_content_second p {
+    color: rgba(128, 128, 128, 1);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.curriculam_cart_content_third img {
+    width: 136.76px;
+    height: 136.76px;
+    margin-bottom: 32px;
+}
+
+.curriculam_cart_content_third h4 {
+    color: rgba(32, 32, 32, 1);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.curriculam_cart_content_third p {
+    color: rgba(128, 128, 128, 1);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.read_more_sky {}
+
+.read_more_sky a {
+    text-decoration: none;
+    color: rgba(100, 200, 255, 1);
+}
+
+.read_more_orange a {
+    text-decoration: none;
+    color: rgba(240, 170, 0, 1);
+}
+
+.read_more_purple a {
+    text-decoration: none;
+    color: rgba(135, 0, 255, 1);
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.left {
+    padding: 15px;
+    border-radius: 30px;
+    background: var(--Orange, rgba(254, 163, 1, 1));
+}
+
+.left a {
+    color: #ffffff;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.right {
+    padding: 15px;
+    border-radius: 30px;
+    background: var(--Orange, rgba(254, 163, 1, 1));
+}
+
+.right a {
+    color: #ffffff;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
 
 
 
@@ -149,5 +424,199 @@
         letter-spacing: 0%;
         text-align: left;
     }
+
     /* End responsive of Menubar */
+    .banner {
+        padding: 12px 60px;
+        flex-direction: column-reverse;
+    }
+
+    .banner_content {
+        width: 540px;
+        height: 231px;
+        gap: 12;
+        padding-left: 15px;
+    }
+
+    .banner_content h1 {
+        font-size: 2.5rem;
+        line-height: 40px;
+        margin-bottom: 12px;
+    }
+
+    .banner_des {
+        font-size: 0.8rem;
+        line-height: 15px;
+        margin-bottom: 12px;
+    }
+
+    .btn_enroll {
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    .btn_enroll a {
+        font-size: 0.7rem;
+        line-height: 15px;
+    }
+
+    .banner_img {
+        padding: 0px;
+    }
+
+    .banner_img img {
+        height: 413px;
+        width: 325px;
+    }
+
+    /* End Responsive Banner Design */
+    .curriculam {
+        padding: 40px 70px;
+    }
+
+    .curriculam h1 {
+        color: rgba(0, 0, 0, 1);
+        font-family: Quicksand;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 57.5px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .curriculam_cart {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .curriculam_cart_content_first {
+        width: 250px;
+        height: 350px;
+        box-sizing: border-box;
+        border: 0.94px solid rgba(222, 245, 255, 1);
+        border-radius: 18.86px;
+        box-shadow: inset 0px 0px 28.29578971862793px 0.94px rgba(0, 0, 0, 0.05);
+        background: linear-gradient(180.00deg, rgba(222, 245, 255, 1), rgba(255, 255, 255, 0) 40%), rgba(255, 255, 255, 1);
+        text-align: center;
+        padding: 30px 20px 30px 20px;
+    }
+
+    .curriculam_cart_content_second {
+        width: 250px;
+        height: 350px;
+        box-sizing: border-box;
+        border: 0.94px solid rgba(255, 244, 220, 1);
+        border-radius: 18.86px;
+        box-shadow: inset 0px 0px 28.29578971862793px 0.94px rgba(0, 0, 0, 0.05);
+        background: linear-gradient(180.00deg, rgba(255, 244, 220, 1), rgba(255, 255, 255, 0) 40%), rgba(255, 255, 255, 1);
+        text-align: center;
+        padding: 30px 20px 30px 20px;
+    }
+
+    .curriculam_cart_content_third {
+        width: 250px;
+        height: 350px;
+        box-sizing: border-box;
+        border: 0.94px solid rgba(242, 232, 255, 1);
+        border-radius: 18.86px;
+        box-shadow: inset 0px 0px 28.29578971862793px 0.94px rgba(0, 0, 0, 0.05);
+        background: linear-gradient(180.00deg, rgba(238, 225, 255, 1), rgba(255, 255, 255, 0) 40%), rgba(255, 255, 255, 1);
+        text-align: center;
+        padding: 30px 20px 30px 20px;
+    }
+
+
+
+    .curriculam_cart_content_first img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 18px;
+    }
+
+    .curriculam_cart_content_first h4 {
+        color: rgba(32, 32, 32, 1);
+        font-family: Quicksand;
+        font-size: 0.9rem;
+        font-weight: 700;
+        line-height: 30.65px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .curriculam_cart_content_first p {
+        color: rgba(128, 128, 128, 1);
+        font-family: Quicksand;
+        font-size: 0.7rem;
+        font-weight: 500;
+        line-height: 28.3px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .curriculam_cart_content_second img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 18px;
+    }
+
+    .curriculam_cart_content_second h4 {
+        color: rgba(32, 32, 32, 1);
+        font-family: Quicksand;
+        font-size: 0.9rem;
+        font-weight: 700;
+        line-height: 30.65px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .curriculam_cart_content_second p {
+        color: rgba(128, 128, 128, 1);
+        font-family: Quicksand;
+        font-size: 0.7rem;
+        font-weight: 500;
+        line-height: 28.3px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .curriculam_cart_content_third img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 18px;
+    }
+
+    .curriculam_cart_content_third h4 {
+        color: rgba(32, 32, 32, 1);
+        font-family: Quicksand;
+        font-size: 0.9rem;
+        font-weight: 700;
+        line-height: 30.65px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .curriculam_cart_content_third p {
+        color: rgba(128, 128, 128, 1);
+        font-family: Quicksand;
+        font-size: 0.7rem;
+        font-weight: 500;
+        line-height: 28.3px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .arrow {
+        display: none;
+    }
+
+
 }
